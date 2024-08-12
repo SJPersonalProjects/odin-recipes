@@ -6,11 +6,11 @@
 
 body {
     background-color: #111827;
+    color: #D1D5D8;
 }
 
-h1 {
+h1, h2, h3 {
     text-align: center;
-    font-weight: bolder;
     color: white;
 }
 
@@ -31,8 +31,50 @@ li a {
 a p {
     font-size: large;
     font-weight: bold;
-    color: #D1D5D8;
+    color: #e5e7eb;
 }
 
 /* Styling recipes section. */
+.recipe-image-container {
+    text-align: center;
+}
 
+.recipe-image-container img {
+    height: 400px;
+    width: auto;
+    border: 1px solid #e5e7eb;
+}
+
+.recipe-description-container p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.ingredients-container ul {
+    list-style-type: none;
+    font-size: 18px
+}
+
+.ingredients-container p {
+    text-align: center;
+}
+
+.recipe-steps-container {
+    text-align: center;
+}
+
+.recipe-steps-container ol {
+    list-style-type: none;
+}
+
+.recipe-steps-container p {
+    font-size: 18px;
+}
+
+.recipe-storage-container {
+    text-align: center;
+}
+
+.cooks-note-container p{
+    font-size: 18px;
+}
